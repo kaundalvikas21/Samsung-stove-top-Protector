@@ -1,0 +1,177 @@
+/* blog_page_sec_1_start */
+.blog_pg_sec_1 .blog_sec_1_container {
+  gap: 2rem;
+}
+
+.blog_pg_sec_1 .blog_sec_1_container h1 {
+  font-family: var(--bigshot_one_font-family);
+  color: var(--primary_heading_clr);
+  text-align: start;
+}
+
+.blog_pg_sec_1 .inner_col {
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.blog_pg_sec_1 .inner_col .feature_post {
+  width: 32%;
+}
+
+.blog_pg_sec_1 .inner_col .feature_post .feature_img > a,
+.blog_pg_sec_1 .inner_col .feature_post .feature_img > a img {
+  height: 100%;
+  margin-bottom: -0.5rem;
+  position: relative;
+}
+
+.blog_pg_sec_1 .inner_col .feature_post_content {
+  padding: 1rem 0 1rem 1.25rem;
+  background-color: var(--background_clr);
+  gap: 0.5rem;
+  border-left: 3px solid var(--light_green_color);
+}
+
+.blog_pg_sec_1 .inner_col .feature_post_content > a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: var(--bigshot_one_font-family);
+  color: var(--primary_heading_clr);
+}
+
+.blog_pg_sec_1 .inner_col .feature_post_content > a:hover {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+/* blog_page_sec_1_end */
+
+/* blog_page_sec_2_start */
+.blog_pg_sec_2 .blg_sec_2_container {
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.blog_pg_sec_2 .blg_sec_2_container .l_col_wrapper {
+  max-width: 790px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.blog_pg_sec_2 .l_col_wrapper .l_inner_img {
+  position: relative;
+}
+.blog_pg_sec_2 .l_col_wrapper .feature_img {
+  position: relative;
+}
+
+.blog_pg_sec_2 .l_col_wrapper .feature_img a,
+.blog_pg_sec_2 .l_col_wrapper .feature_img a > img {
+  width: auto;
+}
+
+.blog_pg_sec_2 .l_col_wrapper .feature_post_content > a {
+  color: var(--primary_heading_clr);
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: var(--bigshot_one_font-family);
+}
+.blog_pg_sec_2 .l_col_wrapper .feature_post_content > a:hover {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 5px;
+}
+
+.blog_pg_sec_2 .l_col_wrapper .feature_post_content > p {
+  color: var(--para_clr);
+  font-weight: 300;
+}
+
+.blog_pg_sec_2 .l_col_wrapper .inner_post_wrap {
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.blog_pg_sec_2 .inner_post_wrap .feature_post_content {
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+/* r_col_wrapper css */
+.blog_pg_sec_2 .blg_sec_2_container .r_col_wrapper {
+  max-width: 285px;
+  width: 100%;
+  gap: 4rem;
+}
+
+.blog_pg_sec_2 .r_col_wrapper .col_2 h3,
+.blog_pg_sec_2 .r_col_wrapper .r_col_container h3 {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--primary_heading_clr);
+}
+
+/* here is the social_links_end css */
+
+.blog_pg_sec_2 .r_col_wrapper .col_2 .inner_content {
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.blog_pg_sec_2 .r_col_wrapper .col_2 input {
+  border: 1px solid #999999;
+  outline: none;
+  color: var(--sub_heading_clr);
+  height: 2.75rem;
+  padding: 1rem 0.5rem;
+}
+
+.blog_pg_sec_2 .r_col_wrapper .col_2 button {
+  background-color: var(--light_green_color);
+  color: var(--background_clr);
+  height: 2.75rem;
+  border: none;
+}
+
+.blog_pg_sec_2 .r_col_wrapper .col_2 button:hover {
+  background-color: var(--solid_white_clr);
+  color: var(--light_green_color);
+  border: 1px solid var(--light_green_color);
+}
+
+.blog_pg_sec_2 .r_col_container {
+  gap: 1rem;
+}
+
+.blog_pg_sec_2 .r_col_container .post_1 > a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--sub_heading_clr);
+  padding-bottom: 0.5rem;
+}
+
+.blog_pg_sec_2 .r_col_container .profile_info .user a.grey_txt {
+  color: var(--sub_heading_clr);
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+.blog_pg_sec_2 .r_col_container .profile_info .user a.grey_txt:hover {
+  color: var(--light_green_color);
+}
+
+.blog_pg_sec_2 .r_col_container .post_1 {
+  border-bottom: 2px solid var(--light_green_color);
+  padding-bottom: 0.5rem;
+}
+
+.blog_pg_sec_2 .r_col_container a:hover {
+  color: var(--light_green_color);
+}
+
+.blog_pg_sec_2 .r_col_container .post_1:last-of-type {
+  border-bottom: none;
+}
+
+
+
+/* blog_page_sec_2_end */
