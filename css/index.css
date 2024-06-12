@@ -44,23 +44,24 @@
   align-items: flex-start;
   gap: 1rem;
 }
-.index_sec_2 .l_col_container .grid_item a:nth-child(2) {
+/* 
+.index_sec_2 .global_l_col_container .grid_item a:nth-child(2) {
   font-weight: 400;
   color: var(--sub_heading_clr);
   padding-block: 0.3rem;
 }
-.index_sec_2 .l_col_container .grid_item a:nth-child(3) {
+.index_sec_2 .global_l_col_container .grid_item a:nth-child(3) {
   font-size: 1.25rem;
   font-weight: 400;
   font-family: var(--bigshot_one_font-family);
   color: var(--primary_heading_clr);
   line-height: 1.25rem;
 }
-.index_sec_2 .l_col_container .grid_item a:nth-child(3):hover {
+.index_sec_2 .global_l_col_container .grid_item a:nth-child(3):hover {
   text-decoration: underline;
   text-decoration-skip-ink: none;
 }
-.index_sec_2 .l_col_container .grid_item a:nth-child(3) span {
+.index_sec_2 .global_l_col_container .grid_item a:nth-child(3) span {
   font-size: 1rem;
   color: var(--light_green_color);
   font-style: italic;
@@ -68,48 +69,11 @@
   font-family: var(--kanit_font-family);
   font-weight: 500;
 }
-.index_sec_2 .l_col_container {
+.index_sec_2 .global_l_col_container {
   max-width: 825px;
   width: 100%;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 3rem 1rem;
-}
-/* 
-.index_sec_2 .r_col_container {
-  max-width: 300px;
-  width: 100%;
-  padding: 20px 0 20px 20px;
-  background-color: var(--background_clr);
-  border-left: 3px solid var(--light_green_color);
-  gap: 1rem;
-}
-
-.index_sec_2 .r_col_container h3 {
-  color: var(--primary_heading_clr);
-}
-.index_sec_2 .r_col_container .post_1 > a {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--sub_heading_clr);
-  padding-bottom: 0.5rem;
-}
-.index_sec_2 .r_col_container .profile_info .user a.grey_txt {
-  color: var(--sub_heading_clr);
-  font-weight: 300;
-  font-size: 0.875rem;
-}
-.index_sec_2 .r_col_container .profile_info .user a.grey_txt:hover{
-  color: var(--light_green_color);
-}
-.index_sec_2 .r_col_container .post_1 {
-  border-bottom: 2px solid var(--light_green_color);
-  padding-bottom: 0.5rem;
-}
-.index_sec_2 .r_col_container a:hover {
-  color: var(--light_green_color);
-}
-.index_sec_2 .r_col_container .post_1:last-of-type {
-  border-bottom: none;
 } */
 /*-------- index_section_2 end --------*/
 

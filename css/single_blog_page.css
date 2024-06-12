@@ -277,10 +277,5 @@ color: var(--secondary_head_clr);
   padding: .625rem 1.25rem;
   width: max-content;
 }
-/* ryt_container_css start */
-.single_blg_pg_sec_2 .ryt_container {
-  gap: 3rem;
-}
-
 
 /* single_blog_pg_section_2 css end*/

@@ -1,0 +1,170 @@
+/* author_sec_1_css start */
+.author_sec_1 .author_sec_1_container {
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.author_sec_1 .l_col_wrapper {
+  max-width: 670px;
+  width: 100%;
+  gap: 1rem;
+}
+.author_sec_1 .l_col_wrapper h1 {
+  font-family: var(--bigshot_one_font-family);
+  color: var(--primary_heading_clr);
+}
+.author_sec_1 .l_col_wrapper .social_links {
+  gap: 1rem;
+}
+.author_sec_1 .l_col_wrapper .social_links a {
+  display: flex;
+  align-items: center;
+}
+.author_sec_1 .l_col_wrapper .social_links a > img {
+  width: 20px;
+  height: 20px;
+}
+.author_sec_1 .l_col_wrapper .total_blg_wrap {
+  align-items: center;
+  gap: 1rem;
+}
+.author_sec_1 .l_col_wrapper .total_blg_wrap .inner_left > span:nth-of-type(1) {
+  color: var(--sub_heading_clr);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.author_sec_1 .l_col_wrapper .total_blg_wrap .inner_left > span:nth-of-type(2),
+.author_sec_1 .l_col_wrapper .total_blg_wrap .inner_left > span:nth-of-type(3) {
+  color: #828080;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.author_sec_1 .l_col_wrapper .total_blg_wrap > a {
+  padding: 0.625rem 1.25rem;
+}
+.author_sec_1 .l_col_wrapper p {
+  font-weight: 400;
+  color: var(--secondary_head_clr);
+}
+
+/* author_sec_2_css start */
+.author_sec_2 .author_sec_2_container {
+  gap: 2rem;
+}
+.author_sec_2 .inner_col_1,
+.author_sec_2 .inner_col_2,
+.author_sec_2 .inner_col_3,
+.author_sec_2 .other_article_wrap {
+  gap: 0.625rem;
+  border-bottom: 1px solid var(--primary_heading_clr);
+  padding-bottom: 2rem;
+}
+.global_heading {
+  gap: 1rem;
+  border-bottom: 2px solid var(--light_green_color);
+  width: max-content;
+  padding-bottom: 0.625rem;
+}
+.author_sec_2 .inner_col_1 .global_heading a:nth-of-type(1) {
+  color: var(--light_green_color);
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: var(--bigshot_one_font-family);
+}
+.global_heading a:nth-of-type(2),
+.global_heading a:nth-of-type(3) {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: var(--bigshot_one_font-family);
+  color: var(--sub_heading_clr);
+}
+.global_heading .line {
+  width: 1px;
+  height: 25px;
+  background-color: var(--primary_heading_clr);
+}
+.author_sec_2 .inner_col_1 p {
+  font-weight: 400;
+  color: var(--sub_heading_clr);
+  padding-top: 1.5rem;
+}
+.author_sec_2 .inner_col_1 p > a {
+  color: #0e8ce8;
+}
+.author_sec_2 .inner_col_2 span,
+.author_sec_2 .inner_col_3 span,
+.author_sec_2 .other_article_wrap span {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--secondary_head_clr);
+}
+.author_sec_2 .inner_col_2 .li_items ul li {
+  margin-left: 1.5rem;
+  list-style: auto;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.author_sec_2 .inner_col_2 .li_items ul li::marker {
+  color: var(--light_green_color);
+  font-weight: 500;
+}
+.author_sec_2 .inner_col_2 .li_items ul li > span {
+  color: var(--light_green_color);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.author_sec_2 .inner_col_3 p {
+  font-weight: 400;
+}
+.author_sec_2 .inner_col_3 p > a {
+  color: #0e8ce8;
+}
+
+.author_sec_2 .other_article_wrap {
+  border-bottom: none;
+}
+.author_sec_2 .inner_article_list ul li {
+  color: var(--sub_heading_clr);
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-block: 0.3rem;
+}
+.author_sec_2 .inner_article_list ul li > a {
+  color: #0e8ce8;
+}
+
+/* author_sec_3_css start */
+.author_sec_3 .author_sec_3_container {
+ justify-content: space-between;
+}
+.author_sec_3 .author_sec_3_container .inner_wrapper{
+    gap: 4rem;
+}
+.author_sec_3 .lft_col_1,
+.author_sec_3 .lft_col_2{
+  gap: 2rem;
+}
+.author_sec_3 .lft_col_1 .global_heading a:nth-of-type(1),
+.author_sec_3 .lft_col_2 .global_heading a:nth-of-type(1){
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: var(--bigshot_one_font-family);
+  color: var(--sub_heading_clr);
+}
+.author_sec_3 .lft_col_1 .global_heading a:nth-of-type(2),
+.author_sec_3 .lft_col_2 .global_heading a:nth-of-type(3) {
+  color: var(--light_green_color);
+}
+.author_sec_3 .lft_col_2 .faq_sec .accordion_card .inner_content .faq_content a {
+    color: #0E8CE8;
+    font-weight: 300;
+}
+.author_sec_3 .global_social_wrapper {
+    margin-top: 4rem;
+}
+.author_sec_3 .ryt_col_wrapper .r_col_container{
+    background: none;
+    border-left: none;
+}
