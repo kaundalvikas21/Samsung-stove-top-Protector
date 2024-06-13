@@ -138,6 +138,7 @@
 /* author_sec_3_css start */
 .author_sec_3 .author_sec_3_container {
  justify-content: space-between;
+ gap: 1rem;
 }
 .author_sec_3 .author_sec_3_container .inner_wrapper{
     gap: 4rem;
@@ -161,10 +162,14 @@
     color: #0E8CE8;
     font-weight: 300;
 }
+.author_sec_3 .lft_col_2 .faq_sec .faq_container{
+  border-left: none;
+}
 .author_sec_3 .global_social_wrapper {
     margin-top: 4rem;
 }
 .author_sec_3 .ryt_col_wrapper .r_col_container{
     background: none;
     border-left: none;
+    padding: 0;
 }
