@@ -631,7 +631,6 @@ footer > .copyright_col {
   .mobile_footer {
     display: flex;
     gap: 2rem;
-    margin-bottom: 3rem;
     padding-top: 3rem;
   }
 
@@ -1079,7 +1078,7 @@ footer > .copyright_col {
   align-items: center;
   gap: 2rem;
   background-color: var(--background_clr);
-  padding-block: 2rem;
+  padding: 2rem 1rem;
   border-left: 3px solid var(--light_green_color);
 }
 
