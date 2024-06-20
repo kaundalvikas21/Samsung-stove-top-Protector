@@ -175,6 +175,7 @@
 .single_blg_pg_sec_2 .l_container .advertisement_col_4 .txt_over_img {
   transform: translate(44%, -280%);
 }
+
 .single_blg_pg_sec_2 .l_container .author_col{
   background-color: var(--background_clr);
   padding: 1.25rem 1.5rem;

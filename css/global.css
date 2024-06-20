@@ -482,9 +482,13 @@ header .ryt_content_wrapper {
   gap: 1rem;
 }
 
+header .nav_bar_wrapper ul{
+  align-items: center;
+  gap: 1.25rem;
+}
 header .nav_bar_wrapper ul li {
   list-style: none;
-  padding: 0.5rem;
+  /* padding: .5rem; */
 }
 
 header .nav_bar_wrapper ul li a {
@@ -496,7 +500,7 @@ header .nav_bar_wrapper ul li a:hover {
 }
 
 header .ryt_content_wrapper .header_btn {
-  padding: 12px 30px;
+  padding: 12px 25px;
 }
 
 /*------------------ footer css start-------------------*/
@@ -745,7 +749,7 @@ footer > .copyright_col {
 
 /* global_component (global_stove_prot_benefit) start */
 .global_stove_prot_benefit {
-  background-image: url("/assets/stove_protect_bg.png");
+  background-image: url("../assets/stove_protect_bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1048,15 +1052,16 @@ footer > .copyright_col {
 }
 
 .global_subscribe_update form {
-  margin-inline: auto;
+  width: 100%;
+  justify-content: center;
 }
 
 .global_subscribe_update form > input {
   background-color: transparent;
   padding: 0.5rem 1rem;
   outline: none;
-  border: none;
-  width: 390px;
+  max-width: 390px;
+  width: 100%;
   border: 1px solid var(--sub_heading_clr);
   border-right: none;
   color: var(--sub_heading_clr);

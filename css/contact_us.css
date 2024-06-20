@@ -1,12 +1,11 @@
 .contact_us_sec .contact_us_container {
-    gap: 3rem;
-    max-width: 1017px;
-    /* padding: 1rem 3rem; */
+    max-width: 1036px;
+    width: 100%;
+    margin-inline: auto;
 }
 
 .contact_us_sec .contact_form_wrapper {
     background-color: var(--background_clr);
-    max-width: 1036px;
     padding: 4rem 2rem;
     gap: 3.75rem;
     border-left: 3px solid var(--light_green_color);
