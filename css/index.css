@@ -5,7 +5,7 @@
 .index_sec_1 .index_sec_1_container .r_col {
   gap: 1rem;
   max-width: 580px;
-  width: 100;
+  width: 100%;
   height: auto;
 }
 .index_sec_1 .index_sec_1_container .r_col > span {
@@ -161,7 +161,13 @@
   color: var(--background_clr);
   float: right;
 }
-.index_sec_5 .inner_content_wrapper .content_col .inner_col_1 li a > span:hover{
+.index_sec_5
+  .inner_content_wrapper
+  .content_col
+  .inner_col_1
+  li
+  a
+  > span:hover {
   color: var(--light_green_color);
 }
 .index_sec_5 .inner_content_wrapper .content_col .inner_col_1 li > a:hover {
@@ -184,10 +190,10 @@
   font-weight: 400;
   margin-top: 1rem;
 }
-.index_sec_5 .inner_content_wrapper > a:hover{
+.index_sec_5 .inner_content_wrapper > a:hover {
   color: var(--light_green_color);
 }
-.index_sec_5 .inner_content_wrapper a:hover svg path{
+.index_sec_5 .inner_content_wrapper a:hover svg path {
   stroke: var(--light_green_color);
 }
 .index_sec_5 .green_background {
@@ -197,8 +203,65 @@
   transform: translate(-50%, -50%);
   left: 50%;
   top: 50%;
-  height: 310px;
+  max-height: 310px;
+  height: 100%;
   z-index: -1;
 }
 /*-------- index_section_5 end --------*/
 
+@media screen and (max-width: 480px) {
+  /*------ index_sec_1 ------*/
+  .index_sec_1 .index_sec_1_container {
+    flex-direction: column;
+  }
+  .index_sec_1 .index_sec_1_container > a img {
+    width: 100%;
+  }
+  .index_sec_1 .index_sec_1_container .r_col > h1 > a {
+    font-size: 2rem;
+  }
+  .index_sec_1 .index_sec_1_container .r_col {
+    gap: 0.625rem;
+  }
+
+  /*------ index_sec_2 ------*/
+  .index_sec_2 .index_sec_2_container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .global_l_col_container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.8rem;
+  }
+  /*------ index_sec_4 ------*/
+  .index_section_4 .inner_txt_wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+  .index_section_4 .inner_txt_wrapper .img_bg,
+  .index_section_4 .inner_txt_wrapper .img_bg a {
+    width: 100%;
+  }
+  .index_section_4 .inner_txt_wrapper .txt_ovr_img span {
+    font-size: 1.25rem;
+  }
+    /*------ index_sec_5 ------*/
+  .index_sec_5 .inner_content_wrapper .heading_col {
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+  .index_sec_5 .inner_content_wrapper .content_col .inner_col_1 {
+    width: 100%;
+  }
+  .index_sec_5 .inner_content_wrapper .content_col {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  .index_sec_5 .inner_content_wrapper .content_col .inner_col_1 li {
+    padding-block: .875rem;
+  }
+  .index_sec_5 .green_background {
+    max-height: 500px;
+  }
+}
