@@ -63,5 +63,8 @@
     .contact_us_sec .contact_form_wrapper form textarea {
         grid-column: 1;
     }
+    .contact_us_sec .contact_form_wrapper {
+    padding: 3rem 2rem;
+    }
 
 }
