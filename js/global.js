@@ -17,3 +17,43 @@ accordionCards.forEach((card) => {
     }
   });
 });
+
+
+// menu_off_canvas_js
+const menu_off_canvas = document.querySelector(".menu_off_canvas");
+const close_btn = document.querySelectorAll(".close_btn");
+const hamburger_btn = document.querySelectorAll(".hamburger_btn");
+const overlay = document.querySelector(".overlay");
+
+
+//menu_off_canvas_js
+hamburger_btn.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    menu_off_canvas.classList.add("open");
+    overlay_add()
+  });
+});
+
+close_btn.forEach((cls_btn) => {
+  cls_btn.addEventListener("click", () => {
+    menu_off_canvas.classList.remove("open");
+    overlay_remove();
+  });
+});
+
+// functions_overlay
+function overlay_add() {
+  overlay.classList.add("open_overlay");
+  overlay.addEventListener("click", overlay_remove);
+  // document.body.style.overflow = "hidden";
+}
+
+function overlay_remove() {
+  overlay.classList.remove("open_overlay");
+  overlay.removeEventListener("click", overlay_remove);
+  // document.body.style.overflow = "";
+}
+overlay.addEventListener("click", () => {
+  menu_off_canvas.classList.remove("open");
+  overlay_remove();
+});

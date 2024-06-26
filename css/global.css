@@ -504,6 +504,10 @@ header .ryt_content_wrapper .header_btn {
   padding: 12px 25px;
 }
 
+.mobile_header {
+  display: none;
+}
+
 /*------------------ footer css start-------------------*/
 footer {
   background-color: var(--light_green_color);
@@ -617,16 +621,19 @@ footer > .copyright_col {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 0 2rem;
+  padding: 1.5rem 0 3rem;
   color: var(--solid_white_clr);
   border-top: 1px solid #11d2ac;
   text-align: center;
 }
 
+
 .mobile_footer {
   display: none;
 }
-
+.menu_off_canvas {
+  display: none;
+}
 
 /* global_component (global_stove_prot_benefit) start */
 .global_stove_prot_benefit {
@@ -1067,16 +1074,19 @@ footer > .copyright_col {
   section {
     margin-bottom: 3rem;
   }
-  .breadcrumb_container{
+  main {
+    margin-top: 6rem;
+  }
+  .breadcrumb_container {
     margin-bottom: 0;
   }
-  .breadcrumb_container .breadcrumb{
+  .breadcrumb_container .breadcrumb {
     align-items: flex-start;
   }
-  .breadcrumb_container .breadcrumb span{
+  .breadcrumb_container .breadcrumb span {
     align-self: center;
   }
-  .breadcrumb_container .breadcrumb .breadcrumb-item .black_text{
+  .breadcrumb_container .breadcrumb .breadcrumb-item .black_text {
     white-space: nowrap;
   }
 
@@ -1088,6 +1098,86 @@ footer > .copyright_col {
     max-width: 100%;
   }
   /* component_css */
+  .header_container {
+    display: none;
+  }
+  .mobile_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+  }
+
+  /* menu_off_canvas_css */
+  .menu_off_canvas {
+    display: block;
+    max-width: 240px;
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: var(--background_clr);
+    padding: 2rem 2rem;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-out;
+    z-index: 1002;
+  }
+
+  .menu_off_canvas.open {
+    transform: translateX(0);
+  }
+
+  .menu_off_canvas .menu_inner_wrapper {
+    gap: 2rem;
+  }
+  .menu_off_canvas .heading_row {
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .menu_off_canvas .lists_stove_protect ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+  .menu_off_canvas .lists_stove_protect ul li {
+    list-style: none;
+    color: #000000;
+  }
+  .menu_off_canvas .lists_stove_protect ul li a {
+    color: var(--secondary_head_clr);
+    font-size: 1.125rem;
+  }
+  .menu_off_canvas .lists_stove_protect ul li a:hover {
+    color: var(--light_green_color);
+  }
+  .menu_off_canvas .lists_stove_protect ul li:last-child {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .menu_off_canvas .lists_stove_protect ul li:last-child img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .overlay {
+    position: fixed;
+    min-height: 100vh;
+    background-color: rgba(48, 48, 48, 0.192);
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1001;
+    display: none;
+  }
+  .overlay.open_overlay {
+    display: block;
+  }
+
   .global_stove_prot_benefit .stove_prot_benft_container span {
     text-align: center;
     font-size: 1.25rem;
@@ -1157,15 +1247,6 @@ footer > .copyright_col {
     border-right: 1px solid var(--sub_heading_clr);
   }
 
-}
-
-
-
-
-
-
-/* mobile_footer_responsiveness_css */
-@media screen and (max-width: 480px) {
   /* mobile footer */
   footer > .inner_container {
     display: none;
@@ -1249,7 +1330,7 @@ footer > .copyright_col {
 
   .mobile_footer .li_column a {
     color: var(--solid_white_clr);
-    font-size: 0.75rem;
+    font-size: .875rem;
     font-weight: 400;
   }
 
@@ -1284,7 +1365,6 @@ footer > .copyright_col {
   .mobile_footer .accordion_card.active .rotate_180 {
     transform: rotate(0deg);
   }
-  footer > .inner_container .col_1 p, footer > .copyright_col p {
-  width: 70%;
-  }
+ 
 }
+
