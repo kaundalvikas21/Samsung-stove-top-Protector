@@ -123,6 +123,7 @@
 
 .author_sec_2 .other_article_wrap {
   border-bottom: none;
+  padding-bottom: 0;
 }
 .author_sec_2 .inner_article_list ul li {
   color: var(--sub_heading_clr);
